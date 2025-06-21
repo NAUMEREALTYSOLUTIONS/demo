@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://naumerealtysolutions.github.io/demo/sitemap.xml
