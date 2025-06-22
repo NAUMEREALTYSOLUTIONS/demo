@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Submit Blog | Naume Realty Solutions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
+  <div id="wrapper">
+
+    <header id="header">
+      <div class="logo">
+        <span class="icon fa-lock"></span>
+      </div>
+      <div class="content">
+        <div class="inner">
+          <h1>Submit a Blog</h1>
+          <p>For Author Use Only</p>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blogs.html">Blog List</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="main">
+      <article id="submit">
+        <h2 class="major">New Blog Entry</h2>
+        <form method="POST" action="https://formspree.io/f/YOUR_FORM_ID">
+          <div class="fields">
+            <div class="field">
+              <label for="author-password">Author Password</label>
+              <input type="password" id="author-password" name="password" required />
+            </div>
+            <div class="field">
+              <label for="title">Blog Title</label>
+              <input type="text" name="title" id="title" required />
+            </div>
+            <div class="field">
+              <label for="summary">Summary</label>
+              <textarea name="summary" id="summary" rows="3" required></textarea>
+            </div>
+            <div class="field">
+              <label for="content">Full Blog Content</label>
+              <textarea name="content" id="content" rows="10" required></textarea>
+            </div>
+            <div class="field">
+              <label for="image">Image URL (optional)</label>
+              <input type="url" name="image" id="image" />
+            </div>
+          </div>
+          <ul class="actions">
+            <li><input type="submit" value="Submit Blog" class="primary" /></li>
+            <li><input type="reset" value="Clear" /></li>
+          </ul>
+        </form>
+        <p><small>Note: Submission requires author password.</small></p>
+      </article>
+    </div>
+
+    <footer id="footer">
+      <p>&copy; Naume Realty Solutions 2025</p>
+    </footer>
+
+  </div>
+</body>
+</html>
