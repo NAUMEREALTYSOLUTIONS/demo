@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /
+Disallow:
 
-Sitemap: https://naumerealtysolutions.github.io/demo/sitemap.xml
+Sitemap: https://www.naumerealtysolutions.in/sitemap.xml
