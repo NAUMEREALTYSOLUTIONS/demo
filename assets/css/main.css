@@ -1666,14 +1666,16 @@ input, select, textarea {
     background: none !important;
 }
 
+
+#main article {
+    background: rgba(7,25,60,0.78) !important;
+    backdrop-filter: blur(10px);
+}
+
 #header {
     background-image: none !important;
 }
 
-#main article {
-    background: rgba(255,255,255,0.92) !important;
-    color: #111 !important;
-}
 
 .image:before {
     display: none !important;
