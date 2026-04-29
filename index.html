@@ -32,9 +32,8 @@ body {
 */
 
 		body {
-    background:
-        linear-gradient(rgba(4,21,45,0.72), rgba(10,61,145,0.72)),
-        url("images/real-estate-bg.jpg");
+    backbody {
+    background: url("images/real-estate-bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,14 +42,17 @@ body {
 }
 
 #bg {
-    background:
-        linear-gradient(rgba(2,17,38,0.75), rgba(10,73,165,0.75)),
-        url("images/mumbai-property.jpg");
+    background: url("images/mumbai-property.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+#wrapper {
+    backdrop-filter: blur(6px);
+    background: rgba(0,0,0,0.25); /* optional for readability */
+}
+/*
 #wrapper {
     backdrop-filter: blur(6px);
     background: rgba(255,255,255,0.04);
@@ -59,7 +61,7 @@ body {
 #wrapper {
     backdrop-filter: blur(6px);
 }
-
+*/
 #header .logo img {
     box-shadow: 0 10px 25px rgba(0,0,0,0.35);
     border: 2px solid rgba(255,255,255,0.15);
