@@ -1741,3 +1741,22 @@ select {
 footer {
     color: #000000 !important;
 }
+
+
+
+/* HERO BACKGROUND ANIMATION */
+
+body {
+    background: url("images/real-estate-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    animation: zoomBg 25s ease-in-out infinite alternate;
+}
+
+@keyframes zoomBg {
+    0% {
+        background-size: 100%;
+    }
+    100% {
+        background-size: 115%;
+    }
+}
