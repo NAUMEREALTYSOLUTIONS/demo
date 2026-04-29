@@ -1660,13 +1660,6 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-/* REMOVE ALL GRADIENTS / DARK OVERLAYS */
-
-#bg:before {
-    background: none !important;
-}
-
-
 #main article {
     background: rgba(7,25,60,0.78) !important;
     backdrop-filter: blur(10px);
@@ -1674,16 +1667,4 @@ input, select, textarea {
 
 #header {
     background-image: none !important;
-}
-
-
-.image:before {
-    display: none !important;
-}
-
-/* Keep real image visible */
-#bg:after {
-    background-image: url("../../images/mumbai-property.jpg") !important;
-    background-size: cover;
-    background-position: center;
 }
