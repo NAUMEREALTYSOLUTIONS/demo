@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1656,3 +1659,29 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* REMOVE ALL GRADIENTS / DARK OVERLAYS */
+
+#bg:before {
+    background: none !important;
+}
+
+#header {
+    background-image: none !important;
+}
+
+#main article {
+    background: rgba(255,255,255,0.92) !important;
+    color: #111 !important;
+}
+
+.image:before {
+    display: none !important;
+}
+
+/* Keep real image visible */
+#bg:after {
+    background-image: url("../../images/mumbai-property.jpg") !important;
+    background-size: cover;
+    background-position: center;
+}
