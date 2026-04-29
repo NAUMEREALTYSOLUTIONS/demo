@@ -1682,7 +1682,7 @@ input, select, textarea {
 
 /* Keep real image visible */
 #bg:after {
-    background-image: url("../../images/real-estate-bg.jpg") !important;
+    background-image: url("../../images/mumbai-property.jpg") !important;
     background-size: cover;
     background-position: center;
 }
