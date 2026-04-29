@@ -1747,7 +1747,7 @@ footer {
 /* HERO BACKGROUND ANIMATION */
 
 body {
-    background: url("images/real-estate-bg.jpg") no-repeat center center fixed;
+    background: url("images/mumbai-property.jpg") no-repeat center center fixed;
     background-size: cover;
     animation: zoomBg 25s ease-in-out infinite alternate;
 }
