@@ -1558,7 +1558,9 @@ input, select, textarea {
 				transform: translateY(0);
 				opacity: 1;
 			}
-
+#main .close:before {
+    color: #000 !important;
+}
 			#main article .close {
 				display: block;
 				position: absolute;
@@ -1571,7 +1573,9 @@ input, select, textarea {
 				overflow: hidden;
 				white-space: nowrap;
 			}
-
+#main .close:before {
+    color: #000 !important;
+}
 				#main article .close:before {
 					-moz-transition: background-color 0.2s ease-in-out;
 					-webkit-transition: background-color 0.2s ease-in-out;
@@ -1591,7 +1595,9 @@ input, select, textarea {
 					background-repeat: no-repeat;
 					color: #111; /* softer black */
 				}
-
+#main .close:before {
+    color: #000 !important;
+}
 				#main article .close:hover:before {
 					background-color: rgba(255, 255, 255, 0.075);
 				}
@@ -1606,7 +1612,11 @@ input, select, textarea {
 				padding: 3.5rem 2rem 0.5rem 2rem ;
 			}
 
-				#main article .close:before {
+			#main .close:before {
+    color: #000 !important;
+}
+			
+			#main article .close:before {
 					top: 0.875rem;
 					left: 0.875rem;
 					width: 2.25rem;
